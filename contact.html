@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        li{
+            display: inline;
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0%;
+            margin: 0%;
+            border: 1em;
+            border-color: blue;
+        }
+     </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <div>
+        <div>
+            <header>
+                <nav>
+                    <ul style="position: relative;">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div>
+           
+             <form method="post" >
+                 <fieldset>
+                 <center>
+                    <table>
+                        <tr>
+                            <td>
+                                Name:
+                            </td>
+                            <td>
+                                <input type="text" name="name"><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Father Name:
+                            </td>
+                            <td>
+                                <input type="text" name="fathername"><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Email:
+                            </td>
+                            <td>
+                                <input type="email" name="email"><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Password:
+                            </td>
+                            <td>
+                                <input type="password" name="password"><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Date Of Birth:
+                            </td>
+                            <td>
+                                <input type="date"><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gender:
+                            </td>
+                            <td>
+                                <input type="radio" name="gender" value="male">male
+                                <input type="radio" name="gender" value="female">female
+                                <input type="radio" name="gender" value="other">other
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Choose a Car:
+                            </td>
+                            <td>
+                                <select name="cars" id="cars">
+                                    <option value="volvo" >Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi"selected>Audi</option>
+                                  </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit">Register</button>
+                            </td>
+                            <td>
+                                <button type="reset">Reset</button>
+                            </td>
+                        </tr>
+                        </table>
+                 </center>
+                </fieldset>
+                
+             </form>
+        </div>
+            
+        <div>
+            <footer style="border: 2em;">
+                Copyright © 2022 All Rights Reserved by Muhammad Sohail
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
